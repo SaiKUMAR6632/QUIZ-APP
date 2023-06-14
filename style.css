@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px rgba(100,100,100,0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+ul li{
+    font-size:1.1rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    color: white;
+    background-color: #8e44ad;
+    border: none;
+    width: 100%;
+    padding: 1.3rem;
+    font: inherit;
+    display: block;
+    font-size:1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #761a9d;
+}
+button:focus{
+    background-color: #3a154a;
+    outline: none;
+}
